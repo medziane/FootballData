@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>MedZiane.FootballData</RootNamespace>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Med Ziane</Authors>
+    <Description>football-data.org API library for .NET</Description>
+    <Copyright>© 2018 Med Ziane</Copyright>
+    <PackageLicenseUrl>https://github.com/medziane/FootballData/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/medziane/FootballData.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Football Data Fixtures Competitions Teams Players</PackageTags>
+    <PackageProjectUrl>https://github.com/medziane/FootballData</PackageProjectUrl>
+    <PackageIconUrl>http://madmed.com/favicon.ico</PackageIconUrl>
+    <AssemblyName>FootballData</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.0\FootballData.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\FootballData.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
